@@ -1,0 +1,66 @@
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FEFEFE;
+    padding: 16px;
+}
+
+.header_logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+
+.header_instruments {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+.header_avatar{
+    cursor: pointer;
+    vertical-align: middle;
+    width: 36px;
+    height: 36px;
+}
+
+.header_icon {
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+}
+
+.header_icon_with_text {
+    position: relative;
+    cursor: pointer;
+}
+
+.header_text_on_icon {
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20%;
+}
+
+.header_input {
+    border: none;
+    border-radius: 4px;
+    background-color: #FAFBFB;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.header_search_label {
+    position: relative;
+}
+
+.header_input_magnifying {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
