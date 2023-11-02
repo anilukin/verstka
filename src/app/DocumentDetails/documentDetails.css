@@ -1,0 +1,8 @@
+.documentDetails_container {
+    width: fit-content;
+    background-color: #FEFEFE;
+    border-radius: 4px;
+    display: flex;
+    padding: 16px;
+    gap: 16px;
+}
