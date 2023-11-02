@@ -19,7 +19,7 @@ export default function Header() {
   
             <div className="header_instruments">
                 <div>
-                    <label for="search" className="header_search_label">
+                    <label htmlFor="search" className="header_search_label">
                         <Image src={magnifyingIcon} alt="magnifying-icon" className="header_input_magnifying" />
                         <input type="text" placeholder="Search" name="search" id="search" className="header_input" />
                     </label>
