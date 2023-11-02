@@ -12,7 +12,7 @@ export default function Directory({ folderInfo }) {
         <div className={dirClasses}>
             <div className="directory_folder_card_header">
                 <div className="directory_folder_card_title">
-                    <Image src={folderIcon} alt="nav-icon" />
+                    <Image src={folderIcon} alt="folder-icon" />
                     {title}
                 </div>
                 {children && children.length > 0 && !isActiv ? <p>{children.length}</p> : null}
