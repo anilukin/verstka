@@ -1,5 +1,32 @@
 .documentDetails_info {
     width: 100%;
     height: fit-content;
-    white-space: nowrap;
+    padding-top: 28px;
+}
+
+.documentDetails_info_container {
+    padding: 16px 0;
+}
+
+.documentDetails_info_card {
+    padding-bottom: 16px;
+}
+
+.documentDetails_info_label {
+    font-size: 0.65rem;
+    padding-left: 16px;
+}
+
+.documentDetails_info_data {
+    padding: 8px 16px;
+}
+
+.documentDetails_info_data:hover {
+    background-color: #FAFBFB;
+    border-radius: 4px;
+}
+
+.documentDetails_info_data > a {
+    color: #E8821D;
+    text-decoration: none;
 }
