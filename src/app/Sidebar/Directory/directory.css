@@ -1,0 +1,33 @@
+.directory_folder_card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.directory_folder_card_header, .directory_folder_card_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding-right: 8px;
+}
+.directory_folder_card_title {
+    padding: 8px;
+}
+
+.directory_folder_card_container {
+    padding: 8px;
+    padding-left: 32px;
+}
+
+.active {
+    background-color: #FAFBFB;
+}
+
+.active > div:first-child {
+    background-color: #FBF3DC;
+    color: #E8821D;
+    border-radius: 4px;
+    padding-left: 8px;
+}
