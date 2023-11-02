@@ -1,0 +1,15 @@
+.rightMenu_navigation {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 4px;
+    background-color: #F7F9FA;
+    padding: 8px;
+}
+
+.rightMenu_card {
+    padding: 16px 0;
+    cursor: pointer;
+}
