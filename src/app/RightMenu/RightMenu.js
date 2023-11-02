@@ -16,7 +16,7 @@ export default function RightMenu() {
             <div className="rightMenu_card">
                 <Image src={menuIcon2} alt="menu-icon2" width={24} height={24} />
             </div>
-            <div className="rightMenu_card">
+            <div className="rightMenu_card activ_menu_card">
                 <Image src={menuIcon3} alt="menu-icon3" width={24} height={24} />
             </div>
             <div className="rightMenu_card">

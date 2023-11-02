@@ -6,10 +6,14 @@
     justify-content: flex-start;
     border-radius: 4px;
     background-color: #F7F9FA;
-    padding: 8px;
 }
 
 .rightMenu_card {
-    padding: 16px 0;
+    padding: 16px 8px;
     cursor: pointer;
+    border-radius: 4px;
+}
+
+.activ_menu_card {
+    background-color: #E8821D;
 }
