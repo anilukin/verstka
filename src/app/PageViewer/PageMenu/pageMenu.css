@@ -1,0 +1,28 @@
+.pageMenu_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    padding-top: 0;
+    margin-bottom: 16px;
+    border-bottom: 1.5px solid #F6F8F9;
+}
+
+.pageMenu_container_mainOptions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pageMenu_container_moreOptions {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 2;
+}
+
+.pageMenu_container_option > * {
+    vertical-align: middle;
+    margin-right: 12px;
+}
