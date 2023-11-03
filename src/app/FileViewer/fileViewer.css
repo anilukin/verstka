@@ -1,0 +1,8 @@
+.fileViewer_container {
+    width: 100%;
+    background-color: #FEFEFE;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
