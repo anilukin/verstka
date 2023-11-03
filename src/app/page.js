@@ -2,7 +2,7 @@ import './page.css'
 
 import Header from './Header/Header';
 import Sidebar from './Sidebar/Sidebar';
-import FileViewer from './FileViewer/FileViewer';
+import PageViewer from './PageViewer/PageViewer';
 import DocumentDetails from './DocumentDetails/DocumentDetails';
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       <main className="main_container">
         <Sidebar />
-        <FileViewer />
+        <PageViewer />
         <DocumentDetails />
       </main>
     </>
