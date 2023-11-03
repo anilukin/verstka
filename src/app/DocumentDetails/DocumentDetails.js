@@ -1,7 +1,7 @@
 import './documentDetails.css';
 
-import DocumentInfo from '../DocumentInfo/DocumentInfo';
-import RightMenu from '../RightMenu/RightMenu';
+import DocumentInfo from './DocumentInfo/DocumentInfo';
+import RightMenu from './RightMenu/RightMenu';
 
 export default function DocumentDetails() {
     const documentInfo = {

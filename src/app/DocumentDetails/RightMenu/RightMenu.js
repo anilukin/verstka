@@ -1,11 +1,11 @@
 import './rightMenu.css';
 
 import Image from 'next/image';
-import menuIcon1 from '../../../public/menu-icon1.svg';
-import menuIcon2 from '../../../public/menu-icon2.svg';
-import menuIcon3 from '../../../public/menu-icon3.svg';
-import menuIcon4 from '../../../public/menu-icon4.svg';
-import menuIcon5 from '../../../public/menu-icon5.svg';
+import menuIcon1 from '../../../../public/menu-icon1.svg';
+import menuIcon2 from '../../../../public/menu-icon2.svg';
+import menuIcon3 from '../../../../public/menu-icon3.svg';
+import menuIcon4 from '../../../../public/menu-icon4.svg';
+import menuIcon5 from '../../../../public/menu-icon5.svg';
 
 export default function RightMenu() {
     return (
