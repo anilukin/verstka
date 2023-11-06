@@ -1,7 +1,0 @@
-.main_container {
-    display: flex;
-    justify-content: space-between;
-    min-height: 100vh;
-    margin-top: 4px;
-    gap: 4px;
-}

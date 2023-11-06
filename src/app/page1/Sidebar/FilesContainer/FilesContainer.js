@@ -3,7 +3,7 @@ import './filesContainer.css';
 import cn from 'classnames';
 
 import Image from 'next/image';
-import fileIcon from '../../../../public/file-icon.svg';
+import fileIcon from '../../../../../public/file-icon.svg';
 
 
 export default function FilesContainer() {

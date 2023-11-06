@@ -2,10 +2,10 @@ import './pageMenu.css';
 
 import Image from 'next/image'
 
-import IconPrint from '../../../../public/page-menu-icon-print.svg';
-import IconShare from '../../../../public/page-menu-icon-share.svg';
-import IconCopy from '../../../../public/menu-icon2.svg';
-import NavIcon from '../../../../public/nav-icon.svg';
+import IconPrint from '../../../../../public/page-menu-icon-print.svg';
+import IconShare from '../../../../../public/page-menu-icon-share.svg';
+import IconCopy from '../../../../../public/menu-icon2.svg';
+import NavIcon from '../../../../../public/nav-icon.svg';
 
 export default function PageMenu() {
 

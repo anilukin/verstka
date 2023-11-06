@@ -2,7 +2,7 @@ import './directory.css';
 import cn from 'classnames';
 
 import Image from 'next/image';
-import folderIcon from '../../../../public/folder-icon.svg';
+import folderIcon from '../../../../../public/folder-icon.svg';
 
 export default function Directory({ folderInfo }) {
     const { title, isActiv, children } = folderInfo;
