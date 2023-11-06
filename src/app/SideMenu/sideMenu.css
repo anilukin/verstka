@@ -1,0 +1,22 @@
+.sidemenu_container {
+    width: 20%;
+    min-width: fit-content;
+    background-color: #FEFEFE;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.sidemenu_card {
+    display: flex;
+    gap: 16px;
+    padding: 8px;
+    align-items: center;
+}
+
+.sidemenu_card_checked {
+    background-color: #FBF3DC;
+    color: #E8821D;
+    border-radius: 4px;
+}
