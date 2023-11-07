@@ -16,6 +16,10 @@
     cursor: pointer;
 }
 
+.sidemenu_card:hover {
+    background-color: #FAFAF9;
+}
+
 .sidemenu_card_checked {
     background-color: #FBF3DC;
     color: #E8821D;
