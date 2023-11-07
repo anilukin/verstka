@@ -42,6 +42,7 @@ progress::-moz-progress-bar {
 .userOverview_serching_bar {
     display: flex;
     gap: 4px;
+    margin: 24px 0px;
 }
 
 .userOverview_serching_bar_input {
