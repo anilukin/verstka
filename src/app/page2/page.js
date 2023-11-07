@@ -1,4 +1,5 @@
 import SideMenu from '../SideMenu/SideMenu';
+import UserOverview from './UserOverview/UserOverview';
 
 import folderIcon from '../../../public/folder-icon.svg';
 import sidemenuIntegration from '../../../public/sidemenu-integration.svg';
@@ -24,6 +25,7 @@ export default function Page2() {
   return (
     <>
       <SideMenu list={list} />
+      <UserOverview />
     </>
   )
 }
