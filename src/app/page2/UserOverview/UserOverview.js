@@ -29,11 +29,42 @@ export default function UserOverview() {
             <div className="userOverview_serching_bar">
                 <div>
                     <label htmlFor="search_user" className="userOverview_serching_bar_label">
-                        <Image src={magnifyingIcon} alt="magnifying-icon" className="userOverview_serching_bar_input_magnifying" />
+                        <Image src={magnifyingIcon} alt="magnifying-icon" width={14} height={14} className="userOverview_serching_bar_input_magnifying" />
                         <input type="text" placeholder="Search" name="search" id="search_user" className="userOverview_serching_bar_input" />
                     </label>
                 </div>
-                <div>Hi</div>
+                <div>
+                    <label htmlFor="user-group" className="userOverview_serching_bar_label">
+                        <select name="user-group" id="user-group" className="userOverview_serching_bar_select">
+                            <option value="">User group</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div>
+                    <label htmlFor="status" className="userOverview_serching_bar_label">
+                        <select name="status" id="status" className="userOverview_serching_bar_select">
+                            <option value="">Status</option>
+                            <option value="Online">Online</option>
+                            <option value="Offline">Offline</option>
+                            <option value="Invited">Invited</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div>
+                    <label htmlFor="role" className="userOverview_serching_bar_label">
+                        <select name="role" id="role" className="userOverview_serching_bar_select">
+                            <option value="">Role</option>
+                            <option value="User">User</option>
+                            <option value="Admin">Admin</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div>
+                    <button type="button" className="userOverview_serching_bar_button">+User</button>
+                </div>
 
             </div>
         </div>
