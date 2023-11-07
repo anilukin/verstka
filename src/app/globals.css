@@ -18,3 +18,10 @@ body {
   opacity: 80%;
 }
 
+ul {
+  list-style: none;
+}
+
+button, select {
+  cursor: pointer;
+}

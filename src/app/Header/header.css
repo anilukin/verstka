@@ -3,14 +3,14 @@
     justify-content: space-between;
     align-items: center;
     background-color: #FEFEFE;
-    padding: 16px;
+    padding: 12px;
 }
 
 .header_logo {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 24px;
+    gap: 18px;
 }
 
 .header_instruments {

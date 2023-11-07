@@ -7,7 +7,7 @@ export default function SideMenuCard ({ item }) {
 
     return(
     <li className={cardMenuClasses}>
-        <Image src={image} alt="{title} icon" width={16} height={16} />
+        <Image src={image} alt={title + " icon"} width={18} height={18} />
         <p>{title}</p>
     </li>
     );
