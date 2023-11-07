@@ -8,17 +8,17 @@ import sidemenuSettings from '../../../public/sidemenu-settings.svg';
 import sidemenuAudit from '../../../public/sidemenu-audit.svg';
 
 export const metadata = {
-  title: 'User management',
-  description: 'Second page',
+  title: 'Admin-settings',
+  description: 'Third page',
 }
 
-export default function Page2() {
+export default function Page3() {
   const list = [
     {image: folderIcon, title: 'Document automation', isActive: false},
     {image: sidemenuIntegration, title: 'Integration', isActive: false},
-    {image: sidemenuUser, title: 'User management', isActive: true},
+    {image: sidemenuUser, title: 'User management', isActive: false},
     {image: sidemenuLicense, title: 'License', isActive: false},
-    {image: sidemenuSettings, title: 'Settings', isActive: false},
+    {image: sidemenuSettings, title: 'Settings', isActive: true},
     {image: sidemenuAudit, title: 'Audit logging', isActive: false},
   ];
   return (
