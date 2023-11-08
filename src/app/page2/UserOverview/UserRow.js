@@ -31,15 +31,15 @@ export default function UserRow ({ user }) {
 
     return(     
         <tr className={userRowClasses}>
-            <td colspan="1">{isLicensed ? <Image src={checkIcon} alt="check-license" width={14} height={14} /> : ''}</td>
-            <td colspan="1" className={classNameStatus}>
+            <td colSpan="1">{isLicensed ? <Image src={checkIcon} alt="check-license" width={14} height={14} /> : ''}</td>
+            <td colSpan="1" className={classNameStatus}>
                 {status}
                 {statusIcon}
             </td>
-            <td colspan="1">{userName}</td>
-            <td colspan="1">{email}</td>
-            <td colspan="1">{role}</td>
-            <td colspan="1">{userGroup}</td>
+            <td colSpan="1">{userName}</td>
+            <td colSpan="1">{email}</td>
+            <td colSpan="1">{role}</td>
+            <td colSpan="1">{userGroup}</td>
         </tr>
     );
 };

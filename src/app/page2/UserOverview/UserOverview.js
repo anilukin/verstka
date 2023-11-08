@@ -75,12 +75,12 @@ export default function UserOverview({usersInfo}) {
                 <table className="userOverview_serching_table_styles">
                     <thead>
                         <tr>
-                            <th colspan="1">Licensed</th>
-                            <th colspan="1">Status</th>
-                            <th colspan="1">User</th>
-                            <th colspan="1">E-Mail address</th>
-                            <th colspan="1">Role</th>
-                            <th colspan="1">User group</th>
+                            <th colSpan="1">Licensed</th>
+                            <th colSpan="1">Status</th>
+                            <th colSpan="1">User</th>
+                            <th colSpan="1">E-Mail address</th>
+                            <th colSpan="1">Role</th>
+                            <th colSpan="1">User group</th>
                         </tr>
                     </thead>
                     <tbody>
