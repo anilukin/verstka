@@ -1,10 +1,13 @@
 import './userOverview.css';
 
 import Image from 'next/image';
-
 import magnifyingIcon from '../../../../public/magnifying-glass-icon.svg';
 
-export default function UserOverview() {
+
+import UserRow from './UserRow';
+
+export default function UserOverview({usersInfo}) {
+
     return(
         <div className="userOverview_container">
             <h3>User overview</h3>
@@ -66,6 +69,24 @@ export default function UserOverview() {
                     <button type="button" className="userOverview_serching_bar_button">+User</button>
                 </div>
 
+            </div>
+
+            <div className="userOverview_serching_table">
+                <table className="userOverview_serching_table_styles">
+                    <thead>
+                        <tr>
+                            <th colspan="1">Licensed</th>
+                            <th colspan="1">Status</th>
+                            <th colspan="1">User</th>
+                            <th colspan="1">E-Mail address</th>
+                            <th colspan="1">Role</th>
+                            <th colspan="1">User group</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {usersInfo.map((user) => <UserRow key={user.id} user={user} />)}
+                    </tbody>
+                </table>
             </div>
         </div>
     )

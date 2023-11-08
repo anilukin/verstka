@@ -22,10 +22,20 @@ export default function Page2() {
     {image: sidemenuSettings, title: 'Settings', isActive: false},
     {image: sidemenuAudit, title: 'Audit logging', isActive: false},
   ];
+
+  const usersInfo = [
+    {isChecked: false, isLicensed: true, status: "Online", userName: "User Name", email: "User@innovine.nl", role: "Admin", userGroup: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    {isChecked: false, isLicensed: true, status: "Offline", userName: "User Name", email: "User@innovine.nl", role: "Admin", userGroup: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    {isChecked: true, isLicensed: true, status: "Online", userName: "User Name", email: "User@innovine.nl", role: "User", userGroup: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    {isChecked: false, isLicensed: false, status: "Invited", userName: "User Name", email: "User@innovine.nl", role: "User", userGroup: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    {isChecked: false, isLicensed: true, status: "Offline", userName: "User Name", email: "User@innovine.nl", role: "Admin", userGroup: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    {isChecked: false, isLicensed: true, status: "Online", userName: "User Name", email: "User@innovine.nl", role: "Admin", userGroup: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+  ];
+
   return (
     <>
       <SideMenu list={list} />
-      <UserOverview />
+      <UserOverview usersInfo={usersInfo} />
     </>
   )
 }
