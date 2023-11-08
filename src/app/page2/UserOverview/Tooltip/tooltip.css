@@ -8,6 +8,7 @@
 
 .tooltip_option {
     padding: 4px;
+    cursor: pointer;
 }
 
 .tooltip_option:last-child {
