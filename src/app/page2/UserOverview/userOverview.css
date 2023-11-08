@@ -7,7 +7,7 @@
     padding: 24px;
 }
 
-.userOverview_container > div {
+.userOverview_container > div:not(:last-child) {
     padding: 24px 0;
 }
 

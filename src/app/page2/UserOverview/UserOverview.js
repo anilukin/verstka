@@ -5,6 +5,7 @@ import magnifyingIcon from '../../../../public/magnifying-glass-icon.svg';
 
 import UserRow from './UserRow';
 import Tooltip from './Tooltip/Tooltip';
+import Pagination from './Pagination/Pagination';
 
 export default function UserOverview({usersInfo}) {
 
@@ -92,6 +93,7 @@ export default function UserOverview({usersInfo}) {
 
                 <Tooltip />
             </div>
+            <Pagination totalCount={6} currentPage={2}/>
         </div>
     )
 }

@@ -1,0 +1,26 @@
+.pagination_container {
+    display: flex;
+    gap: 4px;
+}
+
+.pagination_item {
+    flex-basis: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F7F9FA;
+    color: #CCCDD3;
+    border-radius: 4px;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.pagination_item {
+    text-decoration: none;
+    color: #CCCDD3;
+}
+
+.pagination_item_active {
+    background-color: #E8821D; 
+    color: #FFFFFF;
+}

@@ -24,7 +24,7 @@ export default function FilesContainer() {
     return (
         <div className="files_container">
             {data.map((file) => {
-                const fileCardClasses = cn("files_card", { "file_active": file.isChecked })
+                const fileCardClasses = cn("files_card", { "file_active": file.isChecked });
                 return(
                     <div className={fileCardClasses} key={file.id}>
                         <div className="files_card_title">
