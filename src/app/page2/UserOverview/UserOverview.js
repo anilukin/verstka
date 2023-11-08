@@ -3,8 +3,8 @@ import './userOverview.css';
 import Image from 'next/image';
 import magnifyingIcon from '../../../../public/magnifying-glass-icon.svg';
 
-
 import UserRow from './UserRow';
+import Tooltip from './Tooltip/Tooltip';
 
 export default function UserOverview({usersInfo}) {
 
@@ -71,22 +71,26 @@ export default function UserOverview({usersInfo}) {
 
             </div>
 
-            <div className="userOverview_serching_table">
-                <table className="userOverview_serching_table_styles">
-                    <thead>
-                        <tr>
-                            <th colSpan="1">Licensed</th>
-                            <th colSpan="1">Status</th>
-                            <th colSpan="1">User</th>
-                            <th colSpan="1">E-Mail address</th>
-                            <th colSpan="1">Role</th>
-                            <th colSpan="1">User group</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    {usersInfo.map((user) => <UserRow key={user.id} user={user} />)}
-                    </tbody>
-                </table>
+            <div className="userOverview_serching_table_container">
+                <div className="userOverview_serching_table">
+                    <table className="userOverview_serching_table_styles">
+                        <thead>
+                            <tr>
+                                <th colSpan="1">Licensed</th>
+                                <th colSpan="1">Status</th>
+                                <th colSpan="1">User</th>
+                                <th colSpan="1">E-Mail address</th>
+                                <th colSpan="1">Role</th>
+                                <th colSpan="1">User group</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {usersInfo.map((user) => <UserRow key={user.id} user={user} />)}
+                        </tbody>
+                    </table>
+                </div>
+
+                <Tooltip />
             </div>
         </div>
     )

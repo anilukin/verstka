@@ -109,6 +109,9 @@ progress::-moz-progress-bar {
     width: 100%;
 }
 
+.userOverview_serching_table_container {
+    display: flex;
+}
 .userOverview_serching_table {
     width: 90%;
 }
