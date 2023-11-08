@@ -2,7 +2,7 @@ import './header.css';
 
 import Image from 'next/image';
 import navIcon from '../../../public/nav-icon.svg';
-import logoIcon from '../../../public/logo-icon.png';
+import logoIcon from '../../../public/retSoft-icon.svg';
 import userIcon from '../../../public/user-icon.svg';
 import messageIcon from '../../../public/message-icon.svg';
 import refreshIcon from '../../../public/refresh-icon.svg';

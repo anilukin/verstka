@@ -5,3 +5,11 @@
     width: 10%;
     height: fit-content;
 }
+
+.tooltip_option {
+    padding: 4px;
+}
+
+.tooltip_option:last-child {
+    border-top: 1.5px solid #F6F8F9;
+}
