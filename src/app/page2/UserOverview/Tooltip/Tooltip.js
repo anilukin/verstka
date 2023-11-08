@@ -13,9 +13,9 @@ export default function Tooltip() {
     return(
         <div className="tooltip_container">
             <ul>
-                <li className="tooltip_option"><Image src={logOutIcon} alt="Log out icon" width={24} height={24} style={imageStyle} />Log out</li>
-                <li className="tooltip_option"><Image src={editIcon} alt="Log out icon" width={24} height={24} style={imageStyle} />Edit</li>
-                <li className="tooltip_option"><Image src={deleteIcon} alt="Log out icon" width={24} height={24} style={imageStyle} />Delete</li>
+                <li className="tooltip_option"><Image src={logOutIcon} alt="Log out icon" width={22} height={22} style={imageStyle} />Log out</li>
+                <li className="tooltip_option"><Image src={editIcon} alt="Edit icon" width={22} height={22} style={imageStyle} />Edit</li>
+                <li className="tooltip_option"><Image src={deleteIcon} alt="Delete icon" width={22} height={22} style={imageStyle} />Delete</li>
             </ul>
         </div>
     );
