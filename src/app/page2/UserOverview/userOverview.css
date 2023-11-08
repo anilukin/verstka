@@ -21,10 +21,6 @@ tr > td {
     border: none;
 }
 
-tr > td:first-child {
-    text-align: center;
-}
-
 tr > th {
     font-weight: 500;
     border-bottom: 1.5px solid #F6F8F9;
@@ -124,6 +120,7 @@ progress::-moz-progress-bar {
     border-collapse: collapse;
     vertical-align: middle;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .checked_row {

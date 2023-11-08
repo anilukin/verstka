@@ -31,7 +31,7 @@ export default function UserRow ({ user }) {
 
     return(     
         <tr className={userRowClasses}>
-            <td colSpan="1">{isLicensed ? <Image src={checkIcon} alt="check-license" width={14} height={14} /> : ''}</td>
+            <td colSpan="1" style={{"text-align": "center"}}>{isLicensed ? <Image src={checkIcon} alt="check-license" width={14} height={14} /> : ''}</td>
             <td colSpan="1" className={classNameStatus}>
                 {status}
                 {statusIcon}
