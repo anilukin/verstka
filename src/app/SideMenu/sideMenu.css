@@ -7,20 +7,26 @@
     padding: 18px;
 }
 
-.sidemenu_card {
-    display: flex;
-    gap: 16px;
+.sidemenu_card, .sidemenu_subcategory {
     padding: 8px;
-    align-items: center;
     cursor: pointer;
 }
 
-.sidemenu_card:hover {
+.sidemenu_card > img {
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+.sidemenu_card:hover, .sidemenu_subcategory:hover {
     background-color: #FAFAF9;
 }
 
-.sidemenu_card_checked {
+.sidemenu_card_checked, .sidemenu_subcategory_checked {
     background-color: #FBF3DC;
     color: #E8821D;
     border-radius: 4px;
+}
+.sidemenu_subcategories_container{
+    padding: 8px;
+    margin-left: 42px;
 }

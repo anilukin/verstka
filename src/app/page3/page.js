@@ -18,7 +18,7 @@ export default function Page3() {
     {image: sidemenuIntegration, title: 'Integration', isActive: false},
     {image: sidemenuUser, title: 'User management', isActive: false},
     {image: sidemenuLicense, title: 'License', isActive: false},
-    {image: sidemenuSettings, title: 'Settings', isActive: true},
+    {image: sidemenuSettings, title: 'Settings', isActive: false, subCategories: [{ title: 'General', isActive: true }, { title: 'Logging', isActive: false }]},
     {image: sidemenuAudit, title: 'Audit logging', isActive: false},
   ];
   return (
