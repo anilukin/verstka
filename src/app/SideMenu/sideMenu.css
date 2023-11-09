@@ -17,7 +17,7 @@
     vertical-align: middle;
 }
 
-.sidemenu_card:hover, .sidemenu_subcategory:hover {
+.sidemenu_card:hover:not(.sidemenu_card_checked), .sidemenu_subcategory:hover:not(.sidemenu_subcategory_checked) {
     background-color: #FAFAF9;
 }
 

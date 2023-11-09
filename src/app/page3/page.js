@@ -6,6 +6,7 @@ import sidemenuUser from '../../../public/sidemenu-user.svg';
 import sidemenuLicense from '../../../public/sidemenu-license.svg';
 import sidemenuSettings from '../../../public/sidemenu-settings.svg';
 import sidemenuAudit from '../../../public/sidemenu-audit.svg';
+import GeneralSettings from './GeneralSettings/GeneralSettings';
 
 export const metadata = {
   title: 'Admin-settings',
@@ -24,6 +25,7 @@ export default function Page3() {
   return (
     <>
       <SideMenu list={list} />
+      <GeneralSettings />
     </>
   )
 }
