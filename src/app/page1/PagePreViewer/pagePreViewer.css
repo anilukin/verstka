@@ -1,0 +1,52 @@
+.pagePreViewer_scrollableContainer {
+    width: 35%;
+    background-color: #FEFEFE;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 65px);
+}
+
+.pagePreViewer_list{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagePreViewer_item{
+    aspect-ratio: 0.7;
+    border: 1px solid #CCCDD3;
+    border-radius: 4px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.pagePreViewer_item > div > img {
+    display: block;
+    margin: auto;
+}
+
+.pagePreViewer_item:not(:last-child){
+    margin-bottom: 4px;
+}
+
+.pagePreViewer_pageNumber{
+    padding: 4px 6px;
+    background-color: #F7F9FA;
+    border-radius: 4px;
+    position: relative;
+    left: 2%;
+    bottom: 2%;
+    z-index: 100;
+}
+
+.currentPage{
+    border: 1px solid #E8821D;
+}
+span.currentPage{
+    background-color: #E8821D;
+    color: #FEFEFE;
+}
